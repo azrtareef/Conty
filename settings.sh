@@ -37,15 +37,13 @@ PACKAGES=(
 	gtk3 lib32-gtk3 vulkan-icd-loader lib32-vulkan-icd-loader
 	sdl2-compat vkd3d lib32-vkd3d libgphoto2
 	libnm lib32-libnm
-	cabextract wget gamemode lib32-gamemode mangohud lib32-mangohud
+	cabextract wget 
 	# development
 	base-devel git meson mingw-w64-gcc cmake
 	# gaming
-	lutris python-protobuf prismlauncher bottles  protonplus umu-launcher
+	python-protobuf  bottles  protonplus
 	# extra
- 	pcmanfm
-	minizip  genymotion  gnome-themes-extra
- 	ffmpegthumbnailer libisoburn doublecmd-qt6 brave-origin-bin fastfetch
+	 libisoburn doublecmd-qt6 
 )
 
 # If you want to install AUR packages, specify them in this variable
